@@ -1,0 +1,22 @@
+
+import java.util.Scanner;
+
+public class SimpleMath {
+   public static void main(String[] args) {
+      Scanner input = new Scanner(System.in);
+
+      System.out.print("Enter first integer: "); // prompt for input
+      int firstNumber = input.nextInt(); // read first integer
+
+      System.out.print("Enter second integer: "); // prompt for input
+      int secondNumber = input.nextInt(); // read second integer
+
+      // display results
+      System.out.printf("%nSum is %d%n", (firstNumber + secondtNummber));
+      System.out.printf("Product is %d%n", (firstNummber * secondNummber));
+      System.out.printf("Difference is %d%n", (firstNummber - secondNummber));
+      System.out.printf("Quotient is %d%n", (firstNummber / secondNummber));
+   } // end main
+}  // end class Calculate
+
+
